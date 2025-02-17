@@ -60,7 +60,7 @@ def main():
     
     @st.cache_resource
     def load_model():
-        return tf.keras.models.load_model('interface/model.keras')
+        return tf.keras.models.load_model('model.keras')
     
     try:
         model = load_model()
